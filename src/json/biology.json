@@ -1,0 +1,44 @@
+{
+  "questions": {
+    "What is photosynthesis?": [
+      "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll and other pigments.",
+      "Photosynthesis is the process by which plants convert light energy into chemical energy, which is stored in the form of sugars and other organic compounds.",
+      "Photosynthesis is the process by which organisms use energy from sunlight to convert carbon dioxide and water into oxygen and glucose."
+    ],
+    "What is DNA?": [
+      "DNA, or deoxyribonucleic acid, is a molecule that carries genetic instructions for the development, functioning, growth, and reproduction of all living things.",
+      "DNA is a double-stranded helix structure that consists of nucleotide units made up of a sugar molecule, a phosphate group, and one of four nitrogenous bases.",
+      "DNA is the primary genetic material found in the nucleus of cells, and is responsible for the transfer of genetic information from one generation to the next."
+    ],
+    "What is evolution?": [
+      "Evolution is the process by which populations of living organisms change over time through genetic variation, natural selection, and other mechanisms.",
+      "Evolution is the theory that explains how living things change and adapt over time in response to changes in their environment, leading to the development of new species.",
+      "Evolution is the result of changes in the frequency of genetic traits within populations, driven by factors such as mutation, migration, and genetic drift."
+    ],
+    "What is a cell?": [
+      "A cell is the basic unit of life, and is the smallest functional and structural unit of all living things.",
+      "A cell is a complex, organized structure that contains specialized molecules and organelles that work together to carry out the processes of life.",
+      "A cell is a microscopic entity that is surrounded by a membrane, and contains genetic material and biochemical machinery necessary for life."
+    ],
+    "What is the difference between prokaryotic and eukaryotic cells?": [
+      "Prokaryotic cells are smaller, simpler cells that lack a nucleus and other membrane-bound organelles, while eukaryotic cells are larger, more complex cells that contain a nucleus and other membrane-bound organelles.",
+      "Prokaryotic cells are typically single-celled organisms, while eukaryotic cells can be either single-celled or multicellular organisms.",
+      "Prokaryotic cells have circular DNA molecules, while eukaryotic cells have linear DNA molecules that are organized into chromosomes."
+    ],
+    "What is mitosis?": [
+      "Mitosis is the process by which a single cell divides into two identical daughter cells, each containing the same number of chromosomes as the parent cell.",
+      "Mitosis is a type of cell division that is used for growth and repair of tissues, and for asexual reproduction in some organisms.",
+      "Mitosis is a complex process that involves the replication, segregation, and partitioning of chromosomes into two nuclei."
+    ],
+    "What is a gene?": [
+      "A gene is a segment of DNA that contains the instructions for making a specific protein or RNA molecule.",
+      "Genes are the basic units of heredity, and determine an organism's traits and characteristics.",
+      "Mutations or changes in genes can result in genetic disorders or diseases."
+    ],
+    "What is the role of enzymes in biological processes?": [
+      "Enzymes are proteins that catalyze or speed up chemical reactions in living cells by lowering the activation energy needed to start the reaction.",
+      "Enzymes play a vital role in metabolic processes such as digestion, respiration, and energy production, as well as in DNA replication and protein synthesis.",
+      "Enzymes are highly specific and can only catalyze certain types of reactions with specific substrates."
+    ]
+  }
+}

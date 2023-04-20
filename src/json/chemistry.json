@@ -1,0 +1,114 @@
+{
+  "questions": {
+    "What is an element?": [
+      "An element is a substance that cannot be broken down into simpler substances by chemical means. It is composed of atoms that have the same number of protons in their nuclei.",
+      "An element is a fundamental substance that consists of only one type of atom, and cannot be broken down into simpler substances by chemical means.",
+      "An element is a basic building block of matter that is defined by the number of protons in its nucleus."
+    ],
+    "What is a chemical bond?": [
+      "A chemical bond is a force of attraction between atoms or ions that holds them together in a molecule or crystal.",
+      "A chemical bond is the force that holds atoms together to form molecules, and determines the properties of the resulting substance.",
+      "A chemical bond is a strong attraction between atoms that allows them to share electrons and form stable compounds."
+    ],
+    "What is the periodic table?": [
+      "The periodic table is a tabular arrangement of the chemical elements, organized on the basis of their atomic number, electron configurations, and chemical properties.",
+      "The periodic table is a tool that organizes the elements based on their properties and atomic structure, and is essential for understanding the behavior of elements and their compounds.",
+      "The periodic table is a visual representation of the elements and their properties, and provides a framework for predicting the behavior of chemical reactions."
+    ],
+    "What is a chemical reaction?": [
+      "A chemical reaction is a process that leads to the transformation of one set of chemical substances to another. It involves the breaking and forming of chemical bonds.",
+      "A chemical reaction is a process that occurs when two or more substances interact to form one or more new substances with different chemical and physical properties.",
+      "A chemical reaction is a fundamental concept in chemistry, and is characterized by the breaking and forming of chemical bonds to produce a new substance or substances."
+    ],
+    "What is a molecule?": [
+      "A molecule is a group of atoms that are held together by covalent bonds, and represents the smallest unit of a chemical compound that can participate in a chemical reaction.",
+      "A molecule is a collection of two or more atoms that are joined by chemical bonds and act as a single unit, with its own distinct properties.",
+      "A molecule is a combination of two or more atoms held together by chemical bonds, and can be either an element or a compound."
+    ],
+    "What is an acid?": [
+      "An acid is a substance that donates hydrogen ions (H+) to a solution, and has a pH less than 7.",
+      "An acid is a chemical compound that can donate protons or accept electrons, and is typically sour-tasting and corrosive.",
+      "An acid is a molecule or ion that is capable of donating a proton or accepting an electron pair in reactions, and is characterized by a pH of less than 7."
+    ],
+    "What is a base?": [
+      "A base is a substance that accepts hydrogen ions (H+) in a solution, and has a pH greater than 7.",
+      "A base is a chemical compound that can donate electrons or accept protons, and is typically bitter-tasting and caustic.",
+      "A base is a molecule or ion that is capable of accepting a proton or donating an electron pair in reactions, and is characterized by a pH of greater than 7."
+    ],
+    "What is a catalyst?": [
+      "A catalyst is a substance that speeds up a chemical reaction without being consumed or altered in the process.",
+      "A catalyst is a substance that lowers the activation energy of a chemical reaction, and allows it to occur more quickly or efficiently.",
+      "A catalyst is a material that increases the rate of a chemical reaction by providing an alternative pathway for the reaction to occur."
+    ],
+    "What is a molecular formula?": [
+      "A molecular formula is a symbolic representation of a molecule that shows the number and type of atoms present in a molecule.",
+      "A molecular formula is a formula that shows the exact number of atoms of each element in a molecule, using chemical symbols and numerical subscripts.",
+      "A molecular formula is a way of expressing the composition of a molecule, using chemical symbols to represent the elements and numerical subscripts to show the ratio of atoms."
+    ],
+    "What is the molecular formula for water?": [
+      "The molecular formula for water is H2O, which means that it is composed of two hydrogen atoms and one oxygen atom.",
+      "The molecular formula for water is H2O, which represents the number and types of atoms present in a water molecule.",
+      "The molecular formula for water is H2O, which shows that a water molecule is made up of two hydrogen atoms and one oxygen atom."
+    ],
+    "What is the molecular formula for carbon dioxide?": [
+      "The molecular formula for carbon dioxide is CO2, which means that it is composed of one carbon atom and two oxygen atoms.",
+      "The molecular formula for carbon dioxide is CO2, which represents the number and types of atoms present in a carbon dioxide molecule.",
+      "The molecular formula for carbon dioxide is CO2, which shows that a carbon dioxide molecule is made up of one carbon atom and two oxygen atoms."
+    ],
+    "What is the molecular formula for methane?": [
+      "The molecular formula for methane is CH4, which means that it is composed of one carbon atom and four hydrogen atoms.",
+      "The molecular formula for methane is CH4, which represents the number and types of atoms present in a methane molecule.",
+      "The molecular formula for methane is CH4, which shows that a methane molecule is made up of one carbon atom and four hydrogen atoms."
+    ],
+    "What is a molecular formula used for?": [
+      "A molecular formula is used to represent the composition of a molecule in terms of the number and types of atoms present.",
+      "A molecular formula is used to express the chemical makeup of a molecule, which can provide important information about its properties and behavior.",
+      "A molecular formula is used to identify the elements present in a molecule and their relative proportions."
+    ],
+    "What is the molecular formula for ethanol?": [
+      "The molecular formula for ethanol is C2H6O, which represents the number and types of atoms present in an ethanol molecule.",
+      "The molecular formula for ethanol is C2H6O, which shows that an ethanol molecule is composed of two carbon atoms, six hydrogen atoms, and one oxygen atom.",
+      "The molecular formula for ethanol is C2H6O, which indicates the chemical composition of an ethanol molecule in terms of the elements and their proportions."
+    ],
+    "What is the molecular formula for acetic acid?": [
+      "The molecular formula for acetic acid is CH3COOH, which represents the number and types of atoms present in an acetic acid molecule.",
+      "The molecular formula for acetic acid is CH3COOH, which shows that an acetic acid molecule is composed of two carbon atoms, four hydrogen atoms, and two oxygen atoms.",
+      "The molecular formula for acetic acid is CH3COOH, which indicates the chemical composition of an acetic acid molecule in terms of the elements and their proportions."
+    ],
+    "What is the molecular formula for sucrose?": [
+      "The molecular formula for sucrose is C12H22O11, which represents the number and types of atoms present in a sucrose molecule.",
+      "The molecular formula for sucrose is C12H22O11, which shows that a sucrose molecule is composed of twelve carbon atoms, twenty-two hydrogen atoms, and eleven oxygen atoms.",
+      "The molecular formula for sucrose is C12H22O11, which indicates the chemical composition of a sucrose molecule in terms of the elements and their proportions."
+    ],
+    "What is an electronic configuration?": [
+      "An electronic configuration is a description of how the electrons in an atom or molecule are distributed among different energy levels or orbitals.",
+      "An electronic configuration is a way of representing the arrangement of electrons in an atom or molecule, which can provide important information about its chemical properties and behavior.",
+      "An electronic configuration is a method of specifying the number and types of orbitals occupied by electrons in an atom or molecule."
+    ],
+    "What is the electronic configuration of carbon?": [
+      "The electronic configuration of carbon is 1s2 2s2 2p2, which indicates the number and types of orbitals occupied by its electrons.",
+      "The electronic configuration of carbon is 1s2 2s2 2p2, which shows that it has four valence electrons distributed among the 2s and 2p orbitals.",
+      "The electronic configuration of carbon is 1s2 2s2 2p2, which describes the arrangement of its electrons in terms of the different energy levels and orbitals."
+    ],
+    "What is the electronic configuration of oxygen?": [
+      "The electronic configuration of oxygen is 1s2 2s2 2p4, which indicates the number and types of orbitals occupied by its electrons.",
+      "The electronic configuration of oxygen is 1s2 2s2 2p4, which shows that it has six valence electrons distributed among the 2s and 2p orbitals.",
+      "The electronic configuration of oxygen is 1s2 2s2 2p4, which describes the arrangement of its electrons in terms of the different energy levels and orbitals."
+    ],
+    "What is the electronic configuration of sodium?": [
+      "The electronic configuration of sodium is 1s2 2s2 2p6 3s1, which indicates the number and types of orbitals occupied by its electrons.",
+      "The electronic configuration of sodium is 1s2 2s2 2p6 3s1, which shows that it has one valence electron in the 3s orbital.",
+      "The electronic configuration of sodium is 1s2 2s2 2p6 3s1, which describes the arrangement of its electrons in terms of the different energy levels and orbitals."
+    ],
+    "What is the difference between a valence electron and an inner electron?": [
+      "A valence electron is an electron in the outermost energy level of an atom or molecule that is involved in chemical bonding, while an inner electron is an electron in any of the lower energy levels.",
+      "A valence electron is an electron in the highest occupied energy level of an atom or molecule that determines its chemical properties and reactivity, while an inner electron is any electron in a lower energy level.",
+      "A valence electron is an electron in the outermost occupied energy level of an atom or molecule that interacts with other atoms or molecules to form chemical bonds, while an inner electron is an electron in any of the lower occupied energy levels."
+    ],
+    "What is Hund's rule?": [
+      "Hund's rule is a rule that states that electrons will occupy separate orbitals of the same energy before pairing up in the same orbital.",
+      "Hund's rule is a guideline for determining the spin states of electrons in a system with multiple open-shell configurations.",
+      "Hund's rule is a principle in quantum mechanics that explains the arrangement of electrons in subshells with the same energy level."
+    ]
+  }
+}

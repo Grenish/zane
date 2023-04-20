@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Poppins&display=swap");
+/* font-family: 'Josefin Slab', serif; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.background {
+  width: 440px;
+  height: 440px;
+  border-radius: 15rem;
+  background: radial-gradient(
+      49.19% 88.28% at 72.99% 113.54%,
+      rgba(93, 227, 236, 0.73) 0%,
+      rgba(93, 227, 236, 0.1679) 59.78%,
+      rgba(93, 227, 236, 0) 100%
+    ),
+    linear-gradient(54.57deg, #862ab1 8.59%, rgba(185, 91, 230, 0) 80.49%),
+    radial-gradient(
+      118.75% 118.75% at 96.65% 74.22%,
+      #308ee6 0%,
+      rgba(48, 158, 230, 0) 73.91%
+    ),
+    radial-gradient(
+      114.51% 155.86% at 9.82% 10.94%,
+      rgba(255, 85, 85, 0.7) 0%,
+      rgba(255, 85, 85, 0.147) 61.98%,
+      rgba(255, 85, 85, 0) 100%,
+      #f2f5fa
+    );
+  background-blend-mode: hard-light, darken, normal, normal, normal, normal;
+  filter: blur(50px);
+  filter: blur(50px);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.boxshadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.chat-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  
+}
+
+.main-chat-container{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  margin-bottom: 100px;
+}
