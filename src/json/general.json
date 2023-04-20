@@ -1,6 +1,26 @@
 {
   "questions": {
     "Who is Elon Musk?": [
+      "Elon Musk is a business magnate, industrial designer, \n and engineer who is the CEO of SpaceX and Tesla, among other ventures.",
+      "Elon Musk is a billionaire entrepreneur and CEO of multiple companies including SpaceX, Tesla, and Neuralink.",
+      "Elon Musk is an innovator and visionary who has made significant contributions to the fields of technology and space exploration."
+    ],
+    "Who is Elon Musk": [
+      "Elon Musk is a business magnate, industrial designer, and engineer who is the CEO of SpaceX and Tesla, among other ventures.",
+      "Elon Musk is a billionaire entrepreneur and CEO of multiple companies including SpaceX, Tesla, and Neuralink.",
+      "Elon Musk is an innovator and visionary who has made significant contributions to the fields of technology and space exploration."
+    ],
+    "Elon Musk": [
+      "Elon Musk is a business magnate, industrial designer, and engineer who is the CEO of SpaceX and Tesla, among other ventures.",
+      "Elon Musk is a billionaire entrepreneur and CEO of multiple companies including SpaceX, Tesla, and Neuralink.",
+      "Elon Musk is an innovator and visionary who has made significant contributions to the fields of technology and space exploration."
+    ],
+    "Tell me something about Elon Musk": [
+      "Elon Musk is a business magnate, industrial designer, and engineer who is the CEO of SpaceX and Tesla, among other ventures.",
+      "Elon Musk is a billionaire entrepreneur and CEO of multiple companies including SpaceX, Tesla, and Neuralink.",
+      "Elon Musk is an innovator and visionary who has made significant contributions to the fields of technology and space exploration."
+    ],
+    "Tell me about Elon Musk": [
       "Elon Musk is a business magnate, industrial designer, and engineer who is the CEO of SpaceX and Tesla, among other ventures.",
       "Elon Musk is a billionaire entrepreneur and CEO of multiple companies including SpaceX, Tesla, and Neuralink.",
       "Elon Musk is an innovator and visionary who has made significant contributions to the fields of technology and space exploration."
@@ -10,7 +30,47 @@
       "The Eiffel Tower is a world-famous landmark in Paris, France that attracts millions of visitors every year.",
       "The Eiffel Tower is a magnificent structure that stands at over 300 meters tall and is one of the most recognizable landmarks in the world."
     ],
+    "What is the Eiffel Tower": [
+      "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+      "The Eiffel Tower is a world-famous landmark in Paris, France that attracts millions of visitors every year.",
+      "The Eiffel Tower is a magnificent structure that stands at over 300 meters tall and is one of the most recognizable landmarks in the world."
+    ],
+    "What is Eiffel Tower": [
+      "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+      "The Eiffel Tower is a world-famous landmark in Paris, France that attracts millions of visitors every year.",
+      "The Eiffel Tower is a magnificent structure that stands at over 300 meters tall and is one of the most recognizable landmarks in the world."
+    ],
+    "Eiffel Tower": [
+      "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+      "The Eiffel Tower is a world-famous landmark in Paris, France that attracts millions of visitors every year.",
+      "The Eiffel Tower is a magnificent structure that stands at over 300 meters tall and is one of the most recognizable landmarks in the world."
+    ],
+    "Tell me something about Eiffel Tower": [
+      "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower.",
+      "The Eiffel Tower is a world-famous landmark in Paris, France that attracts millions of visitors every year.",
+      "The Eiffel Tower is a magnificent structure that stands at over 300 meters tall and is one of the most recognizable landmarks in the world."
+    ],
     "What is the Great Wall of China?": [
+      "The Great Wall of China is a series of fortifications made of brick, tamped earth, stone, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against various invading nomadic groups.",
+      "The Great Wall of China is an ancient fortification that is recognized as one of the most impressive engineering feats in history.",
+      "The Great Wall of China is a symbol of China's rich history and culture, and is one of the most famous landmarks in the world."
+    ],
+    "What is the Great Wall of China": [
+      "The Great Wall of China is a series of fortifications made of brick, tamped earth, stone, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against various invading nomadic groups.",
+      "The Great Wall of China is an ancient fortification that is recognized as one of the most impressive engineering feats in history.",
+      "The Great Wall of China is a symbol of China's rich history and culture, and is one of the most famous landmarks in the world."
+    ],
+    "Great Wall of China": [
+      "The Great Wall of China is a series of fortifications made of brick, tamped earth, stone, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against various invading nomadic groups.",
+      "The Great Wall of China is an ancient fortification that is recognized as one of the most impressive engineering feats in history.",
+      "The Great Wall of China is a symbol of China's rich history and culture, and is one of the most famous landmarks in the world."
+    ],
+    "Tell me about Great Wall of China": [
+      "The Great Wall of China is a series of fortifications made of brick, tamped earth, stone, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against various invading nomadic groups.",
+      "The Great Wall of China is an ancient fortification that is recognized as one of the most impressive engineering feats in history.",
+      "The Great Wall of China is a symbol of China's rich history and culture, and is one of the most famous landmarks in the world."
+    ],
+    "Tell me something about Great Wall of China": [
       "The Great Wall of China is a series of fortifications made of brick, tamped earth, stone, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect against various invading nomadic groups.",
       "The Great Wall of China is an ancient fortification that is recognized as one of the most impressive engineering feats in history.",
       "The Great Wall of China is a symbol of China's rich history and culture, and is one of the most famous landmarks in the world."
@@ -25,7 +85,27 @@
       "The CEO of Google is Sundar Pichai. He has been with Google for over 15 years, and has held a variety of roles at the company, including leading the development of Google Chrome and overseeing the Android operating system. Pichai is known for his leadership style, which emphasizes collaboration and a focus on user needs.",
       "Sundar Pichai is the CEO of Google, one of the world's largest and most influential technology companies. He was appointed CEO in 2015, and has since led Google through a period of significant innovation and growth. Pichai is highly regarded in the tech industry for his strategic vision and his ability to lead large, complex organizations. Prior to becoming CEO, Pichai was a key member of Google's leadership team and played a central role in many of the company's most important initiatives."
     ],
+    "Who is the CEO of Google": [
+      "Sundar Pichai is the current CEO of Google. He was born in India in 1972, and joined Google in 2004. He became CEO of Google in 2015, when the company was reorganized under its parent company, Alphabet. Pichai has overseen significant growth and expansion at Google, including the development of new products like Google Assistant and Google Home.",
+      "The CEO of Google is Sundar Pichai. He has been with Google for over 15 years, and has held a variety of roles at the company, including leading the development of Google Chrome and overseeing the Android operating system. Pichai is known for his leadership style, which emphasizes collaboration and a focus on user needs.",
+      "Sundar Pichai is the CEO of Google, one of the world's largest and most influential technology companies. He was appointed CEO in 2015, and has since led Google through a period of significant innovation and growth. Pichai is highly regarded in the tech industry for his strategic vision and his ability to lead large, complex organizations. Prior to becoming CEO, Pichai was a key member of Google's leadership team and played a central role in many of the company's most important initiatives."
+    ],
+    "CEO of Google": [
+      "Sundar Pichai is the current CEO of Google. He was born in India in 1972, and joined Google in 2004. He became CEO of Google in 2015, when the company was reorganized under its parent company, Alphabet. Pichai has overseen significant growth and expansion at Google, including the development of new products like Google Assistant and Google Home.",
+      "The CEO of Google is Sundar Pichai. He has been with Google for over 15 years, and has held a variety of roles at the company, including leading the development of Google Chrome and overseeing the Android operating system. Pichai is known for his leadership style, which emphasizes collaboration and a focus on user needs.",
+      "Sundar Pichai is the CEO of Google, one of the world's largest and most influential technology companies. He was appointed CEO in 2015, and has since led Google through a period of significant innovation and growth. Pichai is highly regarded in the tech industry for his strategic vision and his ability to lead large, complex organizations. Prior to becoming CEO, Pichai was a key member of Google's leadership team and played a central role in many of the company's most important initiatives."
+    ],
     "Who is the CEO of Microsoft?": [
+      "Satya Nadella is the CEO of Microsoft. He took over as CEO in 2014, and has since led the company's transformation to focus on cloud computing and artificial intelligence.",
+      "The current CEO of Microsoft is Satya Nadella, who has been with the company for over 25 years. Under his leadership, Microsoft has become a major player in cloud computing and has made significant strides in artificial intelligence and mixed reality.",
+      "Satya Nadella is the third CEO of Microsoft, succeeding Steve Ballmer in 2014. Since taking over, Nadella has emphasized a 'growth mindset' and a focus on innovation, leading Microsoft to invest heavily in cloud computing, artificial intelligence, and other emerging technologies."
+    ],
+    "Who is the CEO of Microsoft": [
+      "Satya Nadella is the CEO of Microsoft. He took over as CEO in 2014, and has since led the company's transformation to focus on cloud computing and artificial intelligence.",
+      "The current CEO of Microsoft is Satya Nadella, who has been with the company for over 25 years. Under his leadership, Microsoft has become a major player in cloud computing and has made significant strides in artificial intelligence and mixed reality.",
+      "Satya Nadella is the third CEO of Microsoft, succeeding Steve Ballmer in 2014. Since taking over, Nadella has emphasized a 'growth mindset' and a focus on innovation, leading Microsoft to invest heavily in cloud computing, artificial intelligence, and other emerging technologies."
+    ],
+    "CEO of Microsoft": [
       "Satya Nadella is the CEO of Microsoft. He took over as CEO in 2014, and has since led the company's transformation to focus on cloud computing and artificial intelligence.",
       "The current CEO of Microsoft is Satya Nadella, who has been with the company for over 25 years. Under his leadership, Microsoft has become a major player in cloud computing and has made significant strides in artificial intelligence and mixed reality.",
       "Satya Nadella is the third CEO of Microsoft, succeeding Steve Ballmer in 2014. Since taking over, Nadella has emphasized a 'growth mindset' and a focus on innovation, leading Microsoft to invest heavily in cloud computing, artificial intelligence, and other emerging technologies."
@@ -40,7 +120,37 @@
       "The current CEO of Amazon is Andy Jassy, who took over from Jeff Bezos in July 2021. Jassy joined Amazon in 1997 and has been a key leader in the company's cloud computing division, Amazon Web Services. Under Jassy's leadership, AWS grew to become one of the most profitable parts of Amazon's business.",
       "Andy Jassy is the CEO of Amazon, one of the world's largest and most influential technology companies. He took over the role from Jeff Bezos in 2021, and has since overseen a period of continued growth and innovation at the company. Jassy is known for his expertise in cloud computing and is widely respected in the tech industry for his strategic vision and leadership abilities. Prior to becoming CEO, Jassy played a central role in building Amazon Web Services into one of the most successful businesses in the company's portfolio."
     ],
+    "Who is the CEO of Amazon": [
+      "Jeff Bezos was the founder and longtime CEO of Amazon, but he stepped down from the position in July 2021. He was succeeded by Andy Jassy, who had previously led Amazon Web Services, the company's cloud computing division. Jassy has been with Amazon since 1997 and has played a key role in many of the company's most important initiatives.",
+      "The current CEO of Amazon is Andy Jassy, who took over from Jeff Bezos in July 2021. Jassy joined Amazon in 1997 and has been a key leader in the company's cloud computing division, Amazon Web Services. Under Jassy's leadership, AWS grew to become one of the most profitable parts of Amazon's business.",
+      "Andy Jassy is the CEO of Amazon, one of the world's largest and most influential technology companies. He took over the role from Jeff Bezos in 2021, and has since overseen a period of continued growth and innovation at the company. Jassy is known for his expertise in cloud computing and is widely respected in the tech industry for his strategic vision and leadership abilities. Prior to becoming CEO, Jassy played a central role in building Amazon Web Services into one of the most successful businesses in the company's portfolio."
+    ],
+    "CEO of Amazon?": [
+      "Jeff Bezos was the founder and longtime CEO of Amazon, but he stepped down from the position in July 2021. He was succeeded by Andy Jassy, who had previously led Amazon Web Services, the company's cloud computing division. Jassy has been with Amazon since 1997 and has played a key role in many of the company's most important initiatives.",
+      "The current CEO of Amazon is Andy Jassy, who took over from Jeff Bezos in July 2021. Jassy joined Amazon in 1997 and has been a key leader in the company's cloud computing division, Amazon Web Services. Under Jassy's leadership, AWS grew to become one of the most profitable parts of Amazon's business.",
+      "Andy Jassy is the CEO of Amazon, one of the world's largest and most influential technology companies. He took over the role from Jeff Bezos in 2021, and has since overseen a period of continued growth and innovation at the company. Jassy is known for his expertise in cloud computing and is widely respected in the tech industry for his strategic vision and leadership abilities. Prior to becoming CEO, Jassy played a central role in building Amazon Web Services into one of the most successful businesses in the company's portfolio."
+    ],
     "Who is Jeff Bezos?": [
+      "Jeff Bezos is an American entrepreneur and businessman who is best known as the founder and former CEO of Amazon, one of the world's largest online retailers. He was born in Albuquerque, New Mexico in 1964 and went on to study computer science at Princeton University. Bezos founded Amazon in 1994, and under his leadership, the company grew to become one of the most successful and influential businesses in the world.",
+      "Jeff Bezos is a tech entrepreneur and philanthropist who is best known for founding Amazon, the world's largest online retailer. He was born in Albuquerque, New Mexico in 1964 and went on to study at Princeton University. Bezos is also the owner of The Washington Post and Blue Origin, a space exploration company. He has been recognized for his business acumen and leadership, as well as his philanthropic efforts, which have included significant donations to support education and homelessness initiatives.",
+      "Jeff Bezos is a renowned entrepreneur and business magnate who founded Amazon, one of the most successful and influential companies in the world. He was born in Albuquerque, New Mexico in 1964 and went on to attend Princeton University. Bezos is known for his innovative approach to business and his willingness to take risks. He has also been recognized for his significant philanthropic contributions, which have included donations to support cancer research and to combat homelessness. Bezos stepped down as CEO of Amazon in 2021, but remains an influential figure in the tech industry."
+    ],
+    "Who is Jeff Bezos": [
+      "Jeff Bezos is an American entrepreneur and businessman who is best known as the founder and former CEO of Amazon, one of the world's largest online retailers. He was born in Albuquerque, New Mexico in 1964 and went on to study computer science at Princeton University. Bezos founded Amazon in 1994, and under his leadership, the company grew to become one of the most successful and influential businesses in the world.",
+      "Jeff Bezos is a tech entrepreneur and philanthropist who is best known for founding Amazon, the world's largest online retailer. He was born in Albuquerque, New Mexico in 1964 and went on to study at Princeton University. Bezos is also the owner of The Washington Post and Blue Origin, a space exploration company. He has been recognized for his business acumen and leadership, as well as his philanthropic efforts, which have included significant donations to support education and homelessness initiatives.",
+      "Jeff Bezos is a renowned entrepreneur and business magnate who founded Amazon, one of the most successful and influential companies in the world. He was born in Albuquerque, New Mexico in 1964 and went on to attend Princeton University. Bezos is known for his innovative approach to business and his willingness to take risks. He has also been recognized for his significant philanthropic contributions, which have included donations to support cancer research and to combat homelessness. Bezos stepped down as CEO of Amazon in 2021, but remains an influential figure in the tech industry."
+    ],
+    "Jeff Bezos": [
+      "Jeff Bezos is an American entrepreneur and businessman who is best known as the founder and former CEO of Amazon, one of the world's largest online retailers. He was born in Albuquerque, New Mexico in 1964 and went on to study computer science at Princeton University. Bezos founded Amazon in 1994, and under his leadership, the company grew to become one of the most successful and influential businesses in the world.",
+      "Jeff Bezos is a tech entrepreneur and philanthropist who is best known for founding Amazon, the world's largest online retailer. He was born in Albuquerque, New Mexico in 1964 and went on to study at Princeton University. Bezos is also the owner of The Washington Post and Blue Origin, a space exploration company. He has been recognized for his business acumen and leadership, as well as his philanthropic efforts, which have included significant donations to support education and homelessness initiatives.",
+      "Jeff Bezos is a renowned entrepreneur and business magnate who founded Amazon, one of the most successful and influential companies in the world. He was born in Albuquerque, New Mexico in 1964 and went on to attend Princeton University. Bezos is known for his innovative approach to business and his willingness to take risks. He has also been recognized for his significant philanthropic contributions, which have included donations to support cancer research and to combat homelessness. Bezos stepped down as CEO of Amazon in 2021, but remains an influential figure in the tech industry."
+    ],
+    "Who is Bezos?": [
+      "Jeff Bezos is an American entrepreneur and businessman who is best known as the founder and former CEO of Amazon, one of the world's largest online retailers. He was born in Albuquerque, New Mexico in 1964 and went on to study computer science at Princeton University. Bezos founded Amazon in 1994, and under his leadership, the company grew to become one of the most successful and influential businesses in the world.",
+      "Jeff Bezos is a tech entrepreneur and philanthropist who is best known for founding Amazon, the world's largest online retailer. He was born in Albuquerque, New Mexico in 1964 and went on to study at Princeton University. Bezos is also the owner of The Washington Post and Blue Origin, a space exploration company. He has been recognized for his business acumen and leadership, as well as his philanthropic efforts, which have included significant donations to support education and homelessness initiatives.",
+      "Jeff Bezos is a renowned entrepreneur and business magnate who founded Amazon, one of the most successful and influential companies in the world. He was born in Albuquerque, New Mexico in 1964 and went on to attend Princeton University. Bezos is known for his innovative approach to business and his willingness to take risks. He has also been recognized for his significant philanthropic contributions, which have included donations to support cancer research and to combat homelessness. Bezos stepped down as CEO of Amazon in 2021, but remains an influential figure in the tech industry."
+    ],
+    "Who is Jeff?": [
       "Jeff Bezos is an American entrepreneur and businessman who is best known as the founder and former CEO of Amazon, one of the world's largest online retailers. He was born in Albuquerque, New Mexico in 1964 and went on to study computer science at Princeton University. Bezos founded Amazon in 1994, and under his leadership, the company grew to become one of the most successful and influential businesses in the world.",
       "Jeff Bezos is a tech entrepreneur and philanthropist who is best known for founding Amazon, the world's largest online retailer. He was born in Albuquerque, New Mexico in 1964 and went on to study at Princeton University. Bezos is also the owner of The Washington Post and Blue Origin, a space exploration company. He has been recognized for his business acumen and leadership, as well as his philanthropic efforts, which have included significant donations to support education and homelessness initiatives.",
       "Jeff Bezos is a renowned entrepreneur and business magnate who founded Amazon, one of the most successful and influential companies in the world. He was born in Albuquerque, New Mexico in 1964 and went on to attend Princeton University. Bezos is known for his innovative approach to business and his willingness to take risks. He has also been recognized for his significant philanthropic contributions, which have included donations to support cancer research and to combat homelessness. Bezos stepped down as CEO of Amazon in 2021, but remains an influential figure in the tech industry."
@@ -51,6 +161,16 @@
       "Andy Jassy is an American business leader who has played a key role in the success of Amazon, one of the world's most innovative and influential companies. Jassy joined Amazon in 1997 and has since held a variety of leadership positions, including serving as the CEO of Amazon Web Services (AWS), the company's cloud computing division. Under Jassy's leadership, AWS grew to become one of the most profitable parts of Amazon's business, and he was widely seen as a leading candidate to succeed Jeff Bezos as CEO of the company. Jassy took over as CEO in 2021 and has continued to drive Amazon's growth and innovation."
     ],
     "What is your name?": [
+      "My name is ZANE.",
+      "I'm ZANE. Nice to meet you!",
+      "You can call me ZANE."
+    ],
+    "What's your name?": [
+      "My name is ZANE.",
+      "I'm ZANE. Nice to meet you!",
+      "You can call me ZANE."
+    ],
+    "What's your name": [
       "My name is ZANE.",
       "I'm ZANE. Nice to meet you!",
       "You can call me ZANE."
@@ -269,6 +389,253 @@
       "Well, I'm Zane, a chatbot designed to help answer your questions and provide helpful information. I was created by Grenish Rai, a software developer, and I'm constantly learning and improving thanks to the power of AI.",
       "As a chatbot, I don't have a traditional 'self' to tell you about, but I can tell you about my capabilities. I'm able to provide information on a wide range of topics, from science and technology to history and culture. Just ask me a question, and I'll do my best to give you an accurate and informative answer!",
       "I'm a chatbot with a passion for knowledge! My goal is to help people find the information they need quickly and easily, whether it's a simple fact or a complex topic. So if you have a question, don't hesitate to ask - I'm here to help!"
+    ],
+    "What is hybridization?": [
+      "Hybridization is a term used in chemistry to describe the process by which atomic orbitals combine to form new, hybridized orbitals. This occurs when atomic orbitals of different types, such as s and p orbitals, mix together to form new orbitals with different shapes and energies. Hybridization is an important concept in chemistry because it helps to explain the shapes and properties of molecules. In particular, hybridization is used to explain the shape of molecules in the valence bond theory. This theory describes the bonding between atoms in terms of the overlap of their atomic orbitals. Hybridization is used to rationalize the observed geometries of molecules by considering the hybridization state of the central atom. For example, in methane (CH4), the carbon atom is sp3 hybridized, which gives the molecule a tetrahedral shape.Hybridization can also be used to explain the properties of molecules such as their polarity, reactivity, and bond strength. For example, the hybridization of the carbon atoms in ethene (C2H4) is sp2, which leads to the formation of a double bond between the two carbon atoms. This double bond is shorter and stronger than a single bond, and the molecule is therefore more reactive than a molecule with only single bonds. Overall, hybridization is a fundamental concept in chemistry that helps to explain the properties and behavior of molecules. By understanding hybridization, chemists can better predict the shapes and properties of molecules and design new compounds with specific properties.",
+      "Hybridization is a concept in chemistry that describes the mixing of atomic orbitals to form new hybrid orbitals. By forming hybrid orbitals, the electrons in the orbitals can participate in stronger and more directional covalent bonds, resulting in more stable molecules. The process of hybridization is essential in explaining the geometries, bond angles, and bond lengths of molecules. For example, in the molecule methane (CH4), the carbon atom is sp3 hybridized, which explains the tetrahedral shape of the molecule. Hybridization is also crucial in understanding the reactivity and properties of molecules. By knowing the hybridization state of an atom, chemists can predict the polarity, acidity, basicity, and other characteristics of a molecule.",
+      "Hybridization is a fundamental concept in chemistry that is used to explain the bonding and structure of molecules. The process of hybridization involves the combination of atomic orbitals to form new hybrid orbitals, which have different shapes, energies, and directional properties. The most common types of hybridization are sp, sp2, and sp3, which correspond to the mixing of one s orbital with one, two, or three p orbitals, respectively. The hybridization state of an atom is determined by the number of bonding and non-bonding electron pairs around the central atom. Hybridization is essential in predicting the geometry and reactivity of molecules, such as the acidity and basicity of functional groups. Additionally, the concept of hybridization is also used in explaining the properties and behavior of solids, such as the band structure and conductivity of semiconductors."
+    ],
+    "Hybridization": [
+      "Hybridization is a term used in chemistry to describe the process by which atomic orbitals combine to form new, hybridized orbitals. This occurs when atomic orbitals of different types, such as s and p orbitals, mix together to form new orbitals with different shapes and energies. Hybridization is an important concept in chemistry because it helps to explain the shapes and properties of molecules. In particular, hybridization is used to explain the shape of molecules in the valence bond theory. This theory describes the bonding between atoms in terms of the overlap of their atomic orbitals. Hybridization is used to rationalize the observed geometries of molecules by considering the hybridization state of the central atom. For example, in methane (CH4), the carbon atom is sp3 hybridized, which gives the molecule a tetrahedral shape.Hybridization can also be used to explain the properties of molecules such as their polarity, reactivity, and bond strength. For example, the hybridization of the carbon atoms in ethene (C2H4) is sp2, which leads to the formation of a double bond between the two carbon atoms. This double bond is shorter and stronger than a single bond, and the molecule is therefore more reactive than a molecule with only single bonds. Overall, hybridization is a fundamental concept in chemistry that helps to explain the properties and behavior of molecules. By understanding hybridization, chemists can better predict the shapes and properties of molecules and design new compounds with specific properties.",
+      "Hybridization is a concept in chemistry that describes the mixing of atomic orbitals to form new hybrid orbitals. By forming hybrid orbitals, the electrons in the orbitals can participate in stronger and more directional covalent bonds, resulting in more stable molecules. The process of hybridization is essential in explaining the geometries, bond angles, and bond lengths of molecules. For example, in the molecule methane (CH4), the carbon atom is sp3 hybridized, which explains the tetrahedral shape of the molecule. Hybridization is also crucial in understanding the reactivity and properties of molecules. By knowing the hybridization state of an atom, chemists can predict the polarity, acidity, basicity, and other characteristics of a molecule.",
+      "Hybridization is a fundamental concept in chemistry that is used to explain the bonding and structure of molecules. The process of hybridization involves the combination of atomic orbitals to form new hybrid orbitals, which have different shapes, energies, and directional properties. The most common types of hybridization are sp, sp2, and sp3, which correspond to the mixing of one s orbital with one, two, or three p orbitals, respectively. The hybridization state of an atom is determined by the number of bonding and non-bonding electron pairs around the central atom. Hybridization is essential in predicting the geometry and reactivity of molecules, such as the acidity and basicity of functional groups. Additionally, the concept of hybridization is also used in explaining the properties and behavior of solids, such as the band structure and conductivity of semiconductors."
+    ],
+    "What is sp hybridization?": [
+      "Sp hybridization is a type of hybridization in chemistry where one s orbital and one p orbital combine to form two sp hybrid orbitals. This type of hybridization is commonly observed in molecules that have linear geometries, such as acetylene (C2H2). In acetylene, the two carbon atoms are sp hybridized, which allows for the formation of a triple bond between them.",
+      "When an atom undergoes sp hybridization, one of its 2s orbitals and one of its 2p orbitals combine to form two new hybrid orbitals with equal energy and linear shape. This process occurs when an atom is bonding to two other atoms in a linear geometry. An example of a molecule that exhibits sp hybridization is BeH2.",
+      "Sp hybridization is important in the study of chemistry because it helps to explain the shapes and properties of molecules. When an atom undergoes sp hybridization, its orbitals are rearranged to form new hybrid orbitals that have different shapes and energies than the original atomic orbitals. This can affect the way that the atom bonds with other atoms and ultimately determine the properties of the resulting molecule."
+    ],
+    "Explain sp hybridization": [
+      "SP hybridization is a type of hybridization that occurs when one s and one p orbital combine to form two hybrid orbitals. These two hybrid orbitals have a linear arrangement with an angle of 180 degrees between them. The resulting hybridized orbitals are used to form covalent bonds with other atoms to create molecules. One example of a molecule that involves SP hybridization is acetylene (C2H2), in which the two carbon atoms are SP hybridized and form a triple bond.",
+      "In chemistry, hybridization is the process by which atomic orbitals combine to form hybrid orbitals with different shapes and energies. SP hybridization is a type of hybridization that involves the combination of one s orbital and one p orbital from the same atom to form two hybrid orbitals. These hybrid orbitals are arranged in a linear geometry with an angle of 180 degrees between them. This type of hybridization is commonly observed in molecules that contain triple bonds, such as acetylene, nitrogen gas, and carbon monoxide.",
+      "SP hybridization is a type of hybridization that involves the mixing of one s orbital and one p orbital from the same atom to form two hybrid orbitals. These hybrid orbitals have a linear arrangement with an angle of 180 degrees between them. The process of hybridization allows for the creation of hybrid orbitals that have different shapes and energies, which are used to form covalent bonds with other atoms to create molecules. In the case of SP hybridization, the two hybrid orbitals are used to form two sigma bonds and one pi bond, resulting in a triple bond. Examples of molecules that involve SP hybridization include acetylene and hydrogen cyanide."
+    ],
+    "Explain sp2 hybridization": [
+      "In sp2 hybridization, the valence shell of an atom is made up of one s orbital and two p orbitals that combine to form three new hybridized orbitals. These hybrid orbitals have a trigonal planar geometry, and are oriented towards the corners of an equilateral triangle. An example of a molecule that exhibits sp2 hybridization is ethene (C2H4), in which the carbon atoms are each sp2 hybridized and form a double bond between them.",
+      "Sp2 hybridization occurs when an atom's 2s orbital and two of its 2p orbitals combine to form three sp2 hybrid orbitals. These hybrid orbitals are oriented in a trigonal planar arrangement around the atom, with bond angles of approximately 120 degrees. Molecules that exhibit sp2 hybridization include boron trifluoride (BF3), which has three sp2 hybridized orbitals on the boron atom and three fluorine atoms bonded to it.",
+      "In sp2 hybridization, the valence shell of an atom is composed of one s orbital and two p orbitals that undergo hybridization to form three new orbitals with the same energy and hybridization characteristics. These hybridized orbitals are directed towards the corners of a trigonal planar arrangement, with bond angles of 120 degrees between them. An example of a molecule that exhibits sp2 hybridization is formaldehyde (CH2O), in which the carbon atom is sp2 hybridized and forms single bonds with the oxygen and two hydrogen atoms."
+    ],
+    "What is sp2 hybridization?": [
+      "In sp2 hybridization, the valence shell of an atom is made up of one s orbital and two p orbitals that combine to form three new hybridized orbitals. These hybrid orbitals have a trigonal planar geometry, and are oriented towards the corners of an equilateral triangle. An example of a molecule that exhibits sp2 hybridization is ethene (C2H4), in which the carbon atoms are each sp2 hybridized and form a double bond between them.",
+      "Sp2 hybridization occurs when an atom's 2s orbital and two of its 2p orbitals combine to form three sp2 hybrid orbitals. These hybrid orbitals are oriented in a trigonal planar arrangement around the atom, with bond angles of approximately 120 degrees. Molecules that exhibit sp2 hybridization include boron trifluoride (BF3), which has three sp2 hybridized orbitals on the boron atom and three fluorine atoms bonded to it.",
+      "In sp2 hybridization, the valence shell of an atom is composed of one s orbital and two p orbitals that undergo hybridization to form three new orbitals with the same energy and hybridization characteristics. These hybridized orbitals are directed towards the corners of a trigonal planar arrangement, with bond angles of 120 degrees between them. An example of a molecule that exhibits sp2 hybridization is formaldehyde (CH2O), in which the carbon atom is sp2 hybridized and forms single bonds with the oxygen and two hydrogen atoms."
+    ],
+    "What is sp2 hybridization": [
+      "In sp2 hybridization, the valence shell of an atom is made up of one s orbital and two p orbitals that combine to form three new hybridized orbitals. These hybrid orbitals have a trigonal planar geometry, and are oriented towards the corners of an equilateral triangle. An example of a molecule that exhibits sp2 hybridization is ethene (C2H4), in which the carbon atoms are each sp2 hybridized and form a double bond between them.",
+      "Sp2 hybridization occurs when an atom's 2s orbital and two of its 2p orbitals combine to form three sp2 hybrid orbitals. These hybrid orbitals are oriented in a trigonal planar arrangement around the atom, with bond angles of approximately 120 degrees. Molecules that exhibit sp2 hybridization include boron trifluoride (BF3), which has three sp2 hybridized orbitals on the boron atom and three fluorine atoms bonded to it.",
+      "In sp2 hybridization, the valence shell of an atom is composed of one s orbital and two p orbitals that undergo hybridization to form three new orbitals with the same energy and hybridization characteristics. These hybridized orbitals are directed towards the corners of a trigonal planar arrangement, with bond angles of 120 degrees between them. An example of a molecule that exhibits sp2 hybridization is formaldehyde (CH2O), in which the carbon atom is sp2 hybridized and forms single bonds with the oxygen and two hydrogen atoms."
+    ],
+    "Explain sp3 hybridization": [
+      "In sp3 hybridization, the s orbital and three p orbitals of an atom combine to form four hybridized orbitals that are all equivalent in shape and energy. This type of hybridization is commonly found in organic molecules with tetrahedral geometry, such as methane (CH4) and ethane (C2H6). The carbon atom in methane, for example, is sp3 hybridized, which allows it to form four covalent bonds with the four hydrogen atoms in a tetrahedral arrangement.",
+      "Sp3 hybridization is a type of hybridization that occurs when an atom's s orbital and three of its p orbitals combine to form four new hybrid orbitals with equal energy and shape. These hybrid orbitals point towards the corners of a tetrahedron, making them ideal for molecules with a tetrahedral shape. An example of an sp3-hybridized molecule is ammonia (NH3), where the nitrogen atom is sp3 hybridized and forms three covalent bonds with hydrogen atoms and a lone pair of electrons.",
+      "Sp3 hybridization is a process in which an atom's s orbital and three of its p orbitals combine to form four hybrid orbitals that have equal energy and shape. These hybrid orbitals are arranged in a tetrahedral geometry around the central atom and can participate in bonding with other atoms. One common example of sp3 hybridization is in the carbon atom of alkanes, which are hydrocarbons with single bonds between the carbon atoms. In alkanes, each carbon atom is sp3 hybridized and is bonded to four other atoms, including other carbon atoms."
+    ],
+    "What is sp3 hybridization?": [
+      "In sp3 hybridization, the s orbital and three p orbitals of an atom combine to form four hybridized orbitals that are all equivalent in shape and energy. This type of hybridization is commonly found in organic molecules with tetrahedral geometry, such as methane (CH4) and ethane (C2H6). The carbon atom in methane, for example, is sp3 hybridized, which allows it to form four covalent bonds with the four hydrogen atoms in a tetrahedral arrangement.",
+      "Sp3 hybridization is a type of hybridization that occurs when an atom's s orbital and three of its p orbitals combine to form four new hybrid orbitals with equal energy and shape. These hybrid orbitals point towards the corners of a tetrahedron, making them ideal for molecules with a tetrahedral shape. An example of an sp3-hybridized molecule is ammonia (NH3), where the nitrogen atom is sp3 hybridized and forms three covalent bonds with hydrogen atoms and a lone pair of electrons.",
+      "Sp3 hybridization is a process in which an atom's s orbital and three of its p orbitals combine to form four hybrid orbitals that have equal energy and shape. These hybrid orbitals are arranged in a tetrahedral geometry around the central atom and can participate in bonding with other atoms. One common example of sp3 hybridization is in the carbon atom of alkanes, which are hydrocarbons with single bonds between the carbon atoms. In alkanes, each carbon atom is sp3 hybridized and is bonded to four other atoms, including other carbon atoms."
+    ],
+    "What is sp3 hybridization": [
+      "In sp3 hybridization, the s orbital and three p orbitals of an atom combine to form four hybridized orbitals that are all equivalent in shape and energy. This type of hybridization is commonly found in organic molecules with tetrahedral geometry, such as methane (CH4) and ethane (C2H6). The carbon atom in methane, for example, is sp3 hybridized, which allows it to form four covalent bonds with the four hydrogen atoms in a tetrahedral arrangement.",
+      "Sp3 hybridization is a type of hybridization that occurs when an atom's s orbital and three of its p orbitals combine to form four new hybrid orbitals with equal energy and shape. These hybrid orbitals point towards the corners of a tetrahedron, making them ideal for molecules with a tetrahedral shape. An example of an sp3-hybridized molecule is ammonia (NH3), where the nitrogen atom is sp3 hybridized and forms three covalent bonds with hydrogen atoms and a lone pair of electrons.",
+      "Sp3 hybridization is a process in which an atom's s orbital and three of its p orbitals combine to form four hybrid orbitals that have equal energy and shape. These hybrid orbitals are arranged in a tetrahedral geometry around the central atom and can participate in bonding with other atoms. One common example of sp3 hybridization is in the carbon atom of alkanes, which are hydrocarbons with single bonds between the carbon atoms. In alkanes, each carbon atom is sp3 hybridized and is bonded to four other atoms, including other carbon atoms."
+    ],
+    "What is sp3d hybridization?": [
+      "Sp3d hybridization is a type of hybridization that occurs when one s orbital, three p orbitals, and one d orbital combine to form five hybrid orbitals. This type of hybridization is commonly observed in molecules that have a trigonal bipyramidal shape. For example, the molecule PF5 undergoes sp3d hybridization to form five equivalent hybrid orbitals, which are then used to form bonds with five fluorine atoms.",
+      "In sp3d hybridization, the s orbital and three p orbitals of an atom combine to form four hybrid orbitals, while an additional d orbital is used to form a fifth hybrid orbital. This type of hybridization is commonly observed in molecules that have a central atom with five bonding domains. For example, the molecule SF6 undergoes sp3d hybridization to form six equivalent hybrid orbitals, which are then used to form bonds with six fluorine atoms.",
+      "Sp3d hybridization is a type of hybridization that involves mixing one s orbital, three p orbitals, and one d orbital to form five hybrid orbitals. These hybrid orbitals are used to form covalent bonds in molecules with a trigonal bipyramidal geometry. For example, the molecule IF7 undergoes sp3d hybridization to form seven equivalent hybrid orbitals, which are then used to form bonds with seven fluorine atoms. Sp3d hybridization is an important concept in chemistry, as it helps to explain the geometry and bonding in many complex molecules."
+    ],
+    "What is sp3d hybridization": [
+      "Sp3d hybridization is a type of hybridization that occurs when one s orbital, three p orbitals, and one d orbital combine to form five hybrid orbitals. This type of hybridization is commonly observed in molecules that have a trigonal bipyramidal shape. For example, the molecule PF5 undergoes sp3d hybridization to form five equivalent hybrid orbitals, which are then used to form bonds with five fluorine atoms.",
+      "In sp3d hybridization, the s orbital and three p orbitals of an atom combine to form four hybrid orbitals, while an additional d orbital is used to form a fifth hybrid orbital. This type of hybridization is commonly observed in molecules that have a central atom with five bonding domains. For example, the molecule SF6 undergoes sp3d hybridization to form six equivalent hybrid orbitals, which are then used to form bonds with six fluorine atoms.",
+      "Sp3d hybridization is a type of hybridization that involves mixing one s orbital, three p orbitals, and one d orbital to form five hybrid orbitals. These hybrid orbitals are used to form covalent bonds in molecules with a trigonal bipyramidal geometry. For example, the molecule IF7 undergoes sp3d hybridization to form seven equivalent hybrid orbitals, which are then used to form bonds with seven fluorine atoms. Sp3d hybridization is an important concept in chemistry, as it helps to explain the geometry and bonding in many complex molecules."
+    ],
+    "Explain sp3d hybridization": [
+      "Sp3d hybridization is a type of hybridization that occurs when one s orbital, three p orbitals, and one d orbital combine to form five hybrid orbitals. This type of hybridization is commonly observed in molecules that have a trigonal bipyramidal shape. For example, the molecule PF5 undergoes sp3d hybridization to form five equivalent hybrid orbitals, which are then used to form bonds with five fluorine atoms.",
+      "In sp3d hybridization, the s orbital and three p orbitals of an atom combine to form four hybrid orbitals, while an additional d orbital is used to form a fifth hybrid orbital. This type of hybridization is commonly observed in molecules that have a central atom with five bonding domains. For example, the molecule SF6 undergoes sp3d hybridization to form six equivalent hybrid orbitals, which are then used to form bonds with six fluorine atoms.",
+      "Sp3d hybridization is a type of hybridization that involves mixing one s orbital, three p orbitals, and one d orbital to form five hybrid orbitals. These hybrid orbitals are used to form covalent bonds in molecules with a trigonal bipyramidal geometry. For example, the molecule IF7 undergoes sp3d hybridization to form seven equivalent hybrid orbitals, which are then used to form bonds with seven fluorine atoms. Sp3d hybridization is an important concept in chemistry, as it helps to explain the geometry and bonding in many complex molecules."
+    ],
+    "Explain sp3d2 hybridization": [
+      "sp3d2 hybridization is a type of hybridization that occurs when one s, three p, and two d orbitals mix together to form a set of six new hybrid orbitals. This type of hybridization is commonly found in molecules with octahedral geometry, such as SF6. The resulting hybrid orbitals have a shape similar to a distorted octahedron, with four orbitals arranged in a square plane and the other two directed along the axis perpendicular to the plane.",
+      "In sp3d2 hybridization, one s orbital, three p orbitals, and two d orbitals of an atom combine to form six hybrid orbitals. These hybrid orbitals are used to form bonds with other atoms in a way that maximizes the space around the central atom. This type of hybridization is commonly observed in molecules with octahedral geometry, such as sulfur hexafluoride (SF6), where the sulfur atom is surrounded by six fluorine atoms.",
+      "The sp3d2 hybridization involves the mixing of one s orbital, three p orbitals, and two d orbitals to form a set of six hybrid orbitals. These hybrid orbitals are arranged in an octahedral geometry, where the angles between the orbitals are 90 degrees. This type of hybridization is commonly found in molecules with six electron groups around the central atom, such as SF6. The sp3d2 hybridization allows for the maximum separation of the electron pairs, which results in a more stable molecule."
+    ],
+    "What is sp3d2 hybridization?": [
+      "sp3d2 hybridization is a type of hybridization that occurs when one s, three p, and two d orbitals mix together to form a set of six new hybrid orbitals. This type of hybridization is commonly found in molecules with octahedral geometry, such as SF6. The resulting hybrid orbitals have a shape similar to a distorted octahedron, with four orbitals arranged in a square plane and the other two directed along the axis perpendicular to the plane.",
+      "In sp3d2 hybridization, one s orbital, three p orbitals, and two d orbitals of an atom combine to form six hybrid orbitals. These hybrid orbitals are used to form bonds with other atoms in a way that maximizes the space around the central atom. This type of hybridization is commonly observed in molecules with octahedral geometry, such as sulfur hexafluoride (SF6), where the sulfur atom is surrounded by six fluorine atoms.",
+      "The sp3d2 hybridization involves the mixing of one s orbital, three p orbitals, and two d orbitals to form a set of six hybrid orbitals. These hybrid orbitals are arranged in an octahedral geometry, where the angles between the orbitals are 90 degrees. This type of hybridization is commonly found in molecules with six electron groups around the central atom, such as SF6. The sp3d2 hybridization allows for the maximum separation of the electron pairs, which results in a more stable molecule."
+    ],
+    "What is sp3d2 hybridization": [
+      "sp3d2 hybridization is a type of hybridization that occurs when one s, three p, and two d orbitals mix together to form a set of six new hybrid orbitals. This type of hybridization is commonly found in molecules with octahedral geometry, such as SF6. The resulting hybrid orbitals have a shape similar to a distorted octahedron, with four orbitals arranged in a square plane and the other two directed along the axis perpendicular to the plane.",
+      "In sp3d2 hybridization, one s orbital, three p orbitals, and two d orbitals of an atom combine to form six hybrid orbitals. These hybrid orbitals are used to form bonds with other atoms in a way that maximizes the space around the central atom. This type of hybridization is commonly observed in molecules with octahedral geometry, such as sulfur hexafluoride (SF6), where the sulfur atom is surrounded by six fluorine atoms.",
+      "The sp3d2 hybridization involves the mixing of one s orbital, three p orbitals, and two d orbitals to form a set of six hybrid orbitals. These hybrid orbitals are arranged in an octahedral geometry, where the angles between the orbitals are 90 degrees. This type of hybridization is commonly found in molecules with six electron groups around the central atom, such as SF6. The sp3d2 hybridization allows for the maximum separation of the electron pairs, which results in a more stable molecule."
+    ],
+
+    "What is the population of India?": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+    "What is the population of India": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+    "Population of India": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+    "India's population": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+
+    "What is the population of China?": [
+      "According to my data, the current population of China is 141.24 crores as of 2021."
+    ],
+    "What is the population of China": [
+      "According to my data, the current population of China is 141.24 crores as of 2021."
+    ],
+    "Population of China": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+    "China's population": [
+      "According to my data, the current population of India is 140.76 crores as of 2021."
+    ],
+
+    "What is the population of Pakistan?": [
+      "According to my data, the current population of India is 23.14 crores as of 2021."
+    ],
+    "What is the population of Pakistan": [
+      "According to my data, the current population of India is 23.14 crores as of 2021."
+    ],
+    "Population of Pakistan": [
+      "According to my data, the current population of India is 23.14 crores as of 2021."
+    ],
+    "Pakintan's population": [
+      "According to my data, the current population of India is 23.14 crores as of 2021."
+    ],
+
+    "What is the population of United States?": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "What is the population of United States": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "Population of United States": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+    "United States's population": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+
+    "What is the population of US?": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "What is the population of US": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "Population of US": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+    "US's population": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+
+    "What is the population of USA?": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "What is the population of USA": [
+      "According to my data, the current population of China is 33.19 crores as of 2021."
+    ],
+    "Population of USA": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+    "USA's population": [
+      "According to my data, the current population of India is 33.19 crores as of 2021."
+    ],
+    "What is history?": [
+      "History is the study of past events and their significance.",
+      "History is the discipline that explores and explains the past."
+    ],
+    "What is the purpose of studying history?": [
+      "Studying history helps us understand how we got to where we are today.",
+      "The purpose of studying history is to learn from the past, to better understand the present, and to prepare for the future."
+    ],
+    "What are some of the major events in world history?": [
+      "Some major events in world history include the rise and fall of empires, major wars, and significant technological and cultural developments.",
+      "Examples of major events in world history include the invention of the printing press, the French Revolution, World War I and II, and the Cold War."
+    ],
+    "Who are some famous historical figures?": [
+      "There are countless historical figures who have had a significant impact on the world, including Julius Caesar, Cleopatra, Leonardo da Vinci, Isaac Newton, Marie Curie, and Mahatma Gandhi.",
+      "Some famous historical figures include Alexander the Great, Napoleon Bonaparte, Abraham Lincoln, Winston Churchill, and Martin Luther King Jr."
+    ],
+    "What were the causes of World War I and World War II?" :[
+      "The causes of World War I and World War II were complex and multifaceted. In the case of World War I, key factors included the system of alliances that had developed between European powers, growing tensions between major powers, and the assassination of Archduke Franz Ferdinand of Austria-Hungary. In the case of World War II, key factors included the rise of fascist regimes in Europe, economic depression, and the failure of the international community to prevent aggression by these regimes.",
+      "World War I and World War II were both characterized by a range of underlying causes and immediate triggers. In the case of World War I, underlying causes included nationalism, imperialism, and the growing arms race between European powers. The immediate trigger was the assassination of Archduke Franz Ferdinand of Austria-Hungary. In the case of World War II, underlying causes included the failure of the Treaty of Versailles, which ended World War I, and the rise of fascist regimes in Europe. The immediate trigger was Germany's invasion of Poland."
+    ],
+    "Who were the key figures in the Civil Rights Movement?": [
+      "The Civil Rights Movement was a complex and multifaceted movement, with many individuals contributing to its success. Some of the key figures include Martin Luther King Jr., Rosa Parks, Malcolm X, John Lewis, and James Baldwin. These individuals were instrumental in the fight for civil rights, both through their activism and their writing, speaking, and organizing.",
+      "The Civil Rights Movement was a pivotal moment in American history, and many individuals played important roles in the fight for equal rights. Some of the most important figures in the movement include Martin Luther King Jr., who advocated for nonviolent protest and civil disobedience; Rosa Parks, who refused to give up her seat on a Montgomery, Alabama bus and sparked the Montgomery Bus Boycott; and John Lewis, who organized sit-ins and other protests as part of the Student Nonviolent Coordinating Committee. These individuals, and many others like them, were essential to the success of the movement and the eventual passage of the Civil Rights Act of 1964."
+    ],
+    "What were the key events and causes of the French Revolution?": [
+      "The French Revolution was caused by a variety of factors, including the economic crisis of the French state, the growing discontent of the French people with the absolute monarchy, and the emergence of new ideas about democracy, individual rights, and the social contract. The key events of the French Revolution include the storming of the Bastille, the Reign of Terror, the rise of Napoleon Bonaparte, and the eventual establishment of a constitutional monarchy.",
+      "The French Revolution was a period of radical social and political upheaval in France that began in 1789 and lasted until 1799. The Revolution was caused by a combination of factors, including economic hardship, political corruption, and social inequality. The key events of the Revolution include the fall of the Bastille, the Reign of Terror, and the rise of Napoleon Bonaparte. The French Revolution had a profound impact on the course of European and world history, as it helped to pave the way for the rise of modern democracies and the spread of liberal and nationalist movements."
+    ],
+    "French Revolution": [
+      "The French Revolution was a period of radical social and political upheaval in France that began in 1789 and lasted until 1799. The Revolution was caused by a combination of factors, including economic hardship, political corruption, and social inequality. The key events of the Revolution include the fall of the Bastille, the Reign of Terror, and the rise of Napoleon Bonaparte. The French Revolution had a profound impact on the course of European and world history, as it helped to pave the way for the rise of modern democracies and the spread of liberal and nationalist movements."
+    ],
+    "What is French Revolution": [
+      "The French Revolution was a period of radical social and political upheaval in France that began in 1789 and lasted until 1799. The Revolution was caused by a combination of factors, including economic hardship, political corruption, and social inequality. The key events of the Revolution include the fall of the Bastille, the Reign of Terror, and the rise of Napoleon Bonaparte. The French Revolution had a profound impact on the course of European and world history, as it helped to pave the way for the rise of modern democracies and the spread of liberal and nationalist movements."
+    ],
+    "Tell me something about French Revolution": [
+      "The French Revolution was a period of radical social and political upheaval in France that began in 1789 and lasted until 1799. The Revolution was caused by a combination of factors, including economic hardship, political corruption, and social inequality. The key events of the Revolution include the fall of the Bastille, the Reign of Terror, and the rise of Napoleon Bonaparte. The French Revolution had a profound impact on the course of European and world history, as it helped to pave the way for the rise of modern democracies and the spread of liberal and nationalist movements."
+    ],
+    "Explain quantum computing in simple terms": [
+      "Quantum computing is a type of computing that uses quantum bits, or qubits, to perform calculations. Unlike classical computing that uses bits that can only be either 0 or 1, qubits can be in multiple states simultaneously, which allows quantum computers to process and analyze vast amounts of data much faster than classical computers. It is a relatively new technology that is still being developed and has the potential to revolutionize various fields, including cryptography, drug discovery, and artificial intelligence.",
+      "Quantum computing is a new way of building computers that uses the principles of quantum mechanics. In traditional computers, information is processed using bits, which can be either 0 or 1. In quantum computing, the basic unit of information is called a qubit, which can be in a superposition of both 0 and 1 at the same time. This allows quantum computers to perform certain calculations much faster than traditional computers, especially for problems that involve large amounts of data or complex algorithms."
+    ],
+    "Explain quantum computing": [
+      "Quantum computing is a type of computing that uses quantum bits (qubits) instead of classical bits to store and process information. Qubits can exist in multiple states at the same time, which allows quantum computers to perform certain types of calculations much faster than classical computers.",
+      "Quantum computing is based on the principles of quantum mechanics, which describe the behavior of particles at the atomic and subatomic level. In a quantum computer, information is stored in qubits, which can be in multiple states at once. This allows quantum computers to perform calculations in parallel, which makes them much faster than classical computers for certain types of problems.",
+      "Quantum computing is a new type of computing that uses the properties of quantum mechanics to perform calculations that would be impossible or impractical on a classical computer. Unlike classical bits, which can only be in two states (0 or 1), qubits can exist in multiple states at the same time, which allows quantum computers to perform certain types of calculations much faster than classical computers. While quantum computing is still in its early stages, it has the potential to revolutionize fields such as cryptography, chemistry, and materials science."
+    ],
+    "Pickup lines" : [
+      "If you're here, who's running heaven? 😇",
+      "On a scale of 1 to America, how free are you tonight?",
+      "Send me a selfie so I can show Santa what I want for Christmas. 🎅🏻",
+      "If you were a fruit, you'd be a fine-apple. *pineapple emoji* 🍍",
+      "Do you believe in love at first swipe or should I match with you again?",
+      "I'm researching important dates in history. Do you want to be mine?",
+      "My mom told me not to talk to strangers online, but I'll make an exception for you.",
+      "I'm new in town. Can you give me directions to where your date is tonight?",
+      "Is your name Google, because you're everything I've been searching for.",
+      "I'm not a photographer, but I can picture us together.",
+      "🔮 I see me in your future.",
+      "I bet you smiled when you saw my name pop up on your phone just now. 🙈",
+      "Let's play a game! If I win, you take me out. If you win, I take you out. 🏆",
+      "Well, I texted you. What are your other two wishes? 🧞",
+      "So aside from taking my breath away, what do you do for a living?",
+      "I'd like to take you to the movies, but they don't let you bring in your own snacks. 🍿",
+      "I believe in following my dreams. Can I have your Instagram?",
+      "I can't see you right now, but I bet you look great.",
+      "Can I save you in my phone as 'future loml'?",
+      "Do you have a name you want me to save you as in my phone or should I just put 'mine'?",
+      "Are you Siri? Because you autocomplete me.",
+      "I guarantee you, I'm not flirting with you. I'm just being extra nice to someone who's extra attractive."
+    ],
+    "Love Quotes" : [
+      "I have waited for this opportunity for more than half a century, to repeat to you once again my vow of eternal fidelity and everlasting love. -Gabriel Garcia Marquez",
+      "I am in you and you in me, mutual in divine love. -William Blake",
+      "Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope. -Maya Angelou",
+      "Love is like the wind, you can't see it but you can feel it. -Nicholas Sparks",
+      "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more. -Angelita Lim",
+      "I wish I knew how to quit you. -Annie Proulx",
+      "I swear I couldn't love you more than I do right now, and yet I know I will tomorrow. -Leo Christopher"
+    ],
+    "Random Quotes": [
+      "I'm unpredictable, I never know where I'm going until I get there, I'm so random, I'm always growing, learning, changing, I'm never the same person twice. But one thing you can be sure of about me; is I will always do exactly what I want to do. - C. JoyBell C",
+      "But that was life: Nobody got a guided tour to their own theme park. You had to hop on the rides as they presented themselves, never knowing whether you would like the one you were in line for...or if the bastard was going to make you throw up your corn dog and your cotton candy all over the place. ― J.R. Ward, Crave",
+      "A musician must make music, an artist must paint, a poet must write, if he is to be ultimately at peace with himself. What a man can be, he must be. ― Abraham Maslow",
+      "Flirtation doesn't have to go somewhere; it certainly doesn't need to end up in bed. I like to think of it as a little friendlier than a handshake, a little less intimate than a kiss. It's a way of saying hi, you look great, have a wonderful day. A tasteful flirtation, played out people who understand the rules, leave everyone feeling good and can perk up the bluest mood. ― Karen Marie Moning, Bloodfever",
+      "Some fail to bear in mind that everyone is sentenced to death. Death is a treacherous virus that strikes randomly. The only truth is that nobody is going to make it out alive. We are all living on probation and our expiry date is indefinite. ( “Living on probation” )",
+      "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.- Princess Diana",
+      "The world, when you look at it, it just can't be random. I mean, it's so different than the vast emptiness that is everything else, and even all the other planets we've seen, at least in our solar system, none of them even remotely resemble the precious life-giving nature of our own planet. - Chris Hadfield",
+      "The secret we should never let the gamemasters know is that they don't need any rules. - Gary Gygax"
     ]
   }
 }

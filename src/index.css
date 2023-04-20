@@ -12,6 +12,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+.dark-mode{
+  background: #070707;
+  color: #f3f3f3;
+}
+
+.text{
+  color: #252525;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
