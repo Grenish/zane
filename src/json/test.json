@@ -1,0 +1,41 @@
+{
+  "id" : "1",
+  "question": [
+    {
+        "id" : "Q.1",
+        "type" : "string",
+        "name" : "Who is Elon Musk?",
+        "tags" : ["Elon", "Musk", "Who"],
+        "answer": "Elon Musk is a business magnate and investor who was born on June 28, 1971 in Pretoria, South Africa. He is the CEO of SpaceX and Tesla, and also acquired Twitter in 2022. He cofounded PayPal and formed SpaceX. Musk has British and Pennsylvania Dutch ancestry.",
+        "hasAlternate" : "yes",
+        "alternate" : [
+            "Elon Musk is a business magnate and investor who was born on June 28, 1971 in Pretoria, South Africa . He is the CEO of SpaceX and Tesla, and also acquired Twitter in 2022. He cofounded PayPal and formed SpaceX. Musk has British and Pennsylvania Dutch ancestry.",
+            "Elon Musk is a billionaire entrepreneur who has founded several companies including SpaceX, Tesla, Neuralink, and The Boring Company. He was born on June 28, 1971 in Pretoria, South Africa."
+        ],
+        "subquestion1": {
+            "id" : "Q.1.1",
+            "type" : "string",
+            "name" : "What is SpaceX?",
+            "tags" : ["SpaceX", "What"],
+            "answer": "SpaceX is an American aerospace manufacturer and space transportation services company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft.",
+            "hasAlternate": "yes",
+            "alternate": [
+                "SpaceX is a private space exploration company that was founded in 2002 by Elon Musk. The company's goal is to reduce the cost of space travel and eventually colonize Mars.",
+                "SpaceX is a private American aerospace manufacturer and space transportation services company founded by Elon Musk in 2002. The company designs, manufactures, and launches advanced rockets and spacecraft with the goal of enabling people to live on other planets."
+            ]
+        },
+        "subquestion2": {
+            "id": "Q.1.2",
+            "type": "string",
+            "name" : "What is Tesla?",
+            "tags" : ["Tesla", "What"],
+            "answer": "Tesla is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company designs and manufactures electric cars, battery energy storage systems, and solar products.",
+            "hasAlternate" : "yes",
+            "alternate" : [
+                "Tesla is a company that designs and manufactures electric vehicles, energy storage systems, and solar products. The company was founded in 2003 by Elon Musk.",
+                "Tesla is an American electric vehicle and clean energy company founded by Elon Musk in 2003. The company's mission is to accelerate the world's transition to sustainable energy."
+            ]
+        }
+    }
+  ]
+}
