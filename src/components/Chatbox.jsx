@@ -1,16 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import data from "../json/data.json";
-import general from "../json/general.json";
-import { TypeAnimation } from "react-type-animation";
 import fallback from "../json/fallback.json";
+import queries from "../json/data";
+import Fuse from "fuse.js";
+import { create, all } from 'mathjs';
 
 const Chatbox = () => {
-  const greetings = data.greetings;
-  const farewells = data.farewells;
-
-  const questions = general.questions;
-  const [isTyping, setIsTyping] = useState(false);
-
   const [messages, setMessages] = useState([]);
 
   const handleClearChat = () => {
@@ -44,82 +38,62 @@ const Chatbox = () => {
     }
   }, [theme]);
 
+  const math = create(all);
+
   const handleUserMessage = (event) => {
-    let response = "";
-
-    if (event.key === "Enter") {
-      const userMessage = event.target.value;
-      if (
-        userMessage.toLowerCase() === "hi" ||
-        userMessage.toLowerCase() === "hello" ||
-        userMessage.toLowerCase() === "hey" ||
-        userMessage.toLowerCase() === "hi zane" ||
-        userMessage.toLowerCase() === "hello zane" ||
-        userMessage.toLowerCase() === "hey zane" ||
-        userMessage.toLowerCase() === "hi, zane" ||
-        userMessage.toLowerCase() === "hello, zane" ||
-        userMessage.toLowerCase() === "hey, zane"
-      ) {
-        const randomGreeting =
-          greetings[Math.floor(Math.random() * greetings.length)];
-        setMessages([
-          ...messages,
-          { text: userMessage, isUser: true },
-          { text: randomGreeting, isUser: false },
-        ]);
-      } else if (
-        userMessage.toLowerCase() === "bye" ||
-        userMessage.toLowerCase() === "bye zane"
-      ) {
-        const randomFarewells =
-          farewells[Math.floor(Math.random() * farewells.length)];
-        setMessages([
-          ...messages,
-          { text: userMessage, isUser: true },
-          { text: randomFarewells, isUser: false },
-        ]);
+    const fuse = new Fuse(queries, {
+      keys: ["query"],
+      threshold: 0.3,
+    });
+  
+    const handleInput = (event) => {
+      if (event.key === "Enter") {
+        const userMessage = event.target.value;
+        try {
+          const result = math.evaluate(userMessage);
+          setMessages([
+            ...messages,
+            { text: userMessage, isUser: true },
+            { text: result, isUser: false },
+          ]);
+        } catch (e) {
+          const results = fuse.search(userMessage);
+  
+          if (results.length > 0) {
+            const matchedQuery = results[0].item;
+            const responses = matchedQuery.response;
+            const response =
+              responses[Math.floor(Math.random() * responses.length)];
+            setMessages([
+              ...messages,
+              { text: userMessage, isUser: true },
+              { text: response, isUser: false },
+            ]);
+          } else {
+            const fallbackResponses = fallback.fallbackResponses;
+            const fallbackResponse =
+              fallbackResponses[
+                Math.floor(Math.random() * fallbackResponses.length)
+              ];
+            setMessages([
+              ...messages,
+              { text: userMessage, isUser: true },
+              { text: fallbackResponse, isUser: false },
+            ]);
+          }
+        }
+  
+        event.target.value = "";
       }
-
-      const matchedQuestion = Object.keys(questions).find(
-        (question) => question.toLowerCase() === userMessage.toLowerCase()
-      );
-
-      if (matchedQuestion) {
-        const answers = questions[matchedQuestion];
-        const answer = answers[Math.floor(Math.random() * answers.length)];
-        setMessages([
-          ...messages,
-          { text: userMessage, isUser: true },
-          { text: answer, isUser: false },
-        ]);
-      }
-      if (
-        !matchedQuestion &&
-        userMessage.toLowerCase() !== "hi" &&
-        userMessage.toLowerCase() !== "hello" &&
-        userMessage.toLowerCase() !== "hey" &&
-        userMessage.toLowerCase() !== "hi zane" &&
-        userMessage.toLowerCase() !== "hello zane" &&
-        userMessage.toLowerCase() !== "hey zane" &&
-        userMessage.toLowerCase() !== "hi, zane" &&
-        userMessage.toLowerCase() !== "hello, zane" &&
-        userMessage.toLowerCase() !== "hey, zane"
-      ) {
-        const fallbackResponses = fallback.fallbackResponses;
-        const fallbackResponse =
-          fallbackResponses[
-            Math.floor(Math.random() * fallbackResponses.length)
-          ];
-        setMessages([
-          ...messages,
-          { text: userMessage, isUser: true },
-          { text: fallbackResponse, isUser: false },
-        ]);
-      }
-
-      event.target.value = "";
-    }
+    };
+  
+    handleInput(event);
   };
+  
+
+
+
+  
 
   return (
     <div className="w-full h-screen">
@@ -129,7 +103,7 @@ const Chatbox = () => {
           Welcome to ZANE
         </span>
         <span className="text-xs mb-3">
-          New version ZANE V2.0 |{" "}
+          New version ZANE V2.1 |{" "}
           <a href="" target="_blank" className="underline">
             What's new?
           </a>{" "}
@@ -198,7 +172,11 @@ const Chatbox = () => {
                 </p>
               ) : (
                 <p className="px-5 pb-5">
-                  <span className="font-bold">Zane:</span> {message.text}
+                  <div
+                    dangerouslySetInnerHTML={{
+                      __html: `<strong>Zane:</strong> ${message.text}`,
+                    }}
+                  ></div>
                   <p className="text-[10px] text-end">
                     Not happy with the answer?{" "}
                     <a
@@ -220,7 +198,6 @@ const Chatbox = () => {
       <div className="chatbox w-full fixed bottom-0 p-2">
         <div className="w-full flex justify-center items-center">
           <div className="  flex justify-center rounded-xl gap-3">
-            
             <input
               type="text"
               placeholder="Ask something..."
