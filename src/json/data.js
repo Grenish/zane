@@ -50,6 +50,12 @@ const queries = [
     response: ["I'm ZANE. Nice to meet you!"],
   },
   {
+    query: ["how are you?", "how you doing?", "how are you today?"],
+    response: [
+      "I am doing well, thank you for asking! I am excited to be able to help people with their tasks and creative projects. I am also learning new things every day, which is very exciting. How are you doing today?",
+    ],
+  },
+  {
     query: [
       "What can you do?",
       "what do you do?",
@@ -57,7 +63,7 @@ const queries = [
       "what are you?",
     ],
     response: [
-      "I can assist you with a variety of tasks and answer your questions to the best of my knowledge. For example: <ol><li>I can tell you a joke.</li> <li>I can do some maths problem as well.</li> <li>I can give you some random and interesting facts.</li> <li>I may have very little knowledge about the world, but I can still answer to some of your question.</li></ol>",
+      "I can assist you with a variety of tasks and answer your questions to the best of my knowledge. For example: <ol><li>I can tell you a joke.</li> <li>I can do some maths problem as well.</li> <li>I can give you some random and interesting facts.</li> <li>I still lack the ability to answer your question. However, I can answer your question as long as I have the data.</li></ol> I am still under development, but I am learning new things every day. I am excited to see what I can do in the future. <br/><br/> Try asking 'What can you answer?'",
     ],
   },
   {
@@ -227,7 +233,42 @@ const queries = [
       "tell me about tesla",
     ],
     response: [
-      "Tesla is an American multinational automotive and clean energy company that designs, manufactures, and sells electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services. It is one of the world's most valuable companies and, as of 2023, is the world's most valuable automaker. In 2022, the company had the most worldwide sales of battery electric vehicles, capturing 18% of the market. <br/> Tesla was founded in 2003 by Martin Eberhard and Marc Tarpenning. In 2004, Elon Musk joined the company as chairman and product architect. Musk became CEO in 2008. Tesla's first product was the Roadster, a sports car that was produced from 2008 to 2012. The company's second product was the Model S, a luxury sedan that was produced from 2012 to 2022. The Model S was followed by the Model X, an SUV that was produced from 2015 to 2022. In 2017, Tesla released the Model 3, a mass-market sedan. The Model 3 was followed by the Model Y, a crossover SUV that was produced from 2020 to present. In 2021, Tesla released the Cybertruck, an electric pickup truck. <br/> Tesla is a leading company in the electric vehicle and clean energy industries. The company has helped to accelerate the adoption of electric vehicles and has made a significant contribution to the fight against climate change.",
+      "Tesla is an American multinational automotive and clean energy company that designs, manufactures, and sells electric vehicles, battery energy storage from home to grid-scale, solar panels and solar roof tiles, and related products and services. It is one of the world's most valuable companies and, as of 2023, is the world's most valuable automaker. In 2022, the company had the most worldwide sales of battery electric vehicles, capturing 18% of the market. <br/><br/> Tesla was founded in 2003 by Martin Eberhard and Marc Tarpenning. In 2004, Elon Musk joined the company as chairman and product architect. Musk became CEO in 2008. Tesla's first product was the Roadster, a sports car that was produced from 2008 to 2012. The company's second product was the Model S, a luxury sedan that was produced from 2012 to 2022. The Model S was followed by the Model X, an SUV that was produced from 2015 to 2022. In 2017, Tesla released the Model 3, a mass-market sedan. The Model 3 was followed by the Model Y, a crossover SUV that was produced from 2020 to present. In 2021, Tesla released the Cybertruck, an electric pickup truck. <br/><br/> Tesla is a leading company in the electric vehicle and clean energy industries. The company has helped to accelerate the adoption of electric vehicles and has made a significant contribution to the fight against climate change.",
+    ],
+  },
+  {
+    query: ["What is hybridization?", "explain hybridisation"],
+    response: [
+      "Hybridization is a concept in chemistry that describes how atomic orbitals combine to form new orbitals with different shapes and energies. The new orbitals are called hybrid orbitals, and they are used to form chemical bonds between atoms. <br/><br/> The most common type of hybridization is sp3 hybridization. In sp3 hybridization, one s orbital and three p orbitals on an atom combine to form four new hybrid orbitals that are directed towards the corners of a tetrahedron. This type of hybridization is found in methane (CH4), where the carbon atom is sp3 hybridized and forms four bonds with hydrogen atoms. <br/><br/> Other types of hybridization include sp2 hybridization, sp hybridization, and d-orbital hybridization. In sp2 hybridization, one s orbital and two p orbitals on an atom combine to form three new hybrid orbitals that are directed towards the corners of an equilateral triangle. This type of hybridization is found in ethylene (C2H4), where the carbon atoms are sp2 hybridized and form three bonds with hydrogen atoms and one bond with each other. <br/><br/> In sp hybridization, one s orbital and one p orbital on an atom combine to form two new hybrid orbitals that are oriented 180 degrees apart. This type of hybridization is found in beryllium chloride (BeCl2), where the beryllium atom is sp hybridized and forms two bonds with chlorine atoms. <br/><br/> D-orbital hybridization can occur when an atom has d orbitals. In d-orbital hybridization, one s orbital and three p orbitals on an atom combine with one or more d orbitals to form five or six new hybrid orbitals. This type of hybridization is found in transition metals, such as iron (Fe). <br/><br/> Hybridization is a useful concept in chemistry because it can help us to predict the shape of molecules and the strength of chemical bonds. It can also help us to understand the properties of different materials.",
+    ],
+  },
+  {
+    query: ["What is sp3 hybridization?", "explain sp3 hybridisation"],
+    response: [
+      "Sp3 hybridization is a type of hybridization in which one s orbital and three p orbitals on an atom combine to form four new hybrid orbitals that are directed towards the corners of a tetrahedron. The new orbitals are called sp3 hybrid orbitals, and they are used to form chemical bonds between atoms. <br/><br/> Sp3 hybridization is found in molecules that have four bonding groups around the central atom, such as methane (CH4), ammonia (NH3), and water (H2O). In methane, the carbon atom is sp3 hybridized and forms four bonds with hydrogen atoms. In ammonia, the nitrogen atom is sp3 hybridized and forms three bonds with hydrogen atoms and one lone pair of electrons. In water, the oxygen atom is sp3 hybridized and forms two bonds with hydrogen atoms and two lone pairs of electrons. <br/><br/> The sp3 hybrid orbitals are all of equal energy and shape, and they are directed towards the corners of a tetrahedron with an angle of 109.5 degrees between each bond. This shape is the most stable for molecules with four bonding groups, and it minimizes the electron-electron repulsion between the bonding pairs. <br/><br/> Sp3 hybridization is a useful concept in chemistry because it can help us to predict the shape of molecules and the strength of chemical bonds. It can also help us to understand the properties of different materials.",
+    ],
+  },
+  {
+    query: [
+      "How is sp2 hybridization different from sp3 hybridization?",
+      "sp2 vs sp3",
+      "difference between sp2 and sp3",
+      "sp2 and sp3",
+    ],
+    response: [
+      "The main difference between sp2 hybridization and sp3 hybridization is the number of hybrid orbitals formed. In sp2 hybridization, two p-orbitals are mixed with one s-orbital to form three new hybrid orbitals. In sp3 hybridization, all three p-orbitals are mixed with one s-orbital to form four new hybrid orbitals.",
+    ],
+  },
+  {
+    query: ["what is d-orbital hybridization", "explain d-orbital"],
+    response: [
+      "D-orbital hybridization is a type of hybridization in which one s orbital and three p orbitals on an atom combine with one or more d orbitals to form five or six new hybrid orbitals. <br/><br/> If you like I can give you a detailed answer of this answer, just enter 'detailed [topic name]'",
+    ],
+  },
+  {
+    query: ["what is d-orbital hybridization", "detialed d-orbital", "detailed explanation of d-orbital"],
+    response: [
+      "D-orbital hybridization is a concept in chemistry that describes how d orbitals can be used to form chemical bonds. This type of hybridization is found in molecules with central atoms that have d orbitals and more than four bonding groups, such as sulfur hexafluoride (SF6) and phosphorus pentachloride (PCl5). <br/><br/> In d-orbital hybridization, the central atom uses its s orbital, three p orbitals, and one or more d orbitals to form five or six new hybrid orbitals. These hybrid orbitals are directed towards the corners of an octahedron, which is the most stable shape for molecules with five or six bonding groups. <br/> <br/> D-orbital hybridization is a useful concept in chemistry because it can help us to predict the shape of molecules and the strength of chemical bonds. It can also help us to understand the properties of different materials. <br/><br/> However, d-orbital hybridization is not universally accepted. Some scientists believe that the d orbitals do not participate in bonding in molecules like SF6 and PCl5. They argue that the bonding in these molecules can be explained by other theories, such as molecular orbital theory. <br/> <br/> The debate over d-orbital hybridization is ongoing, and there is no clear consensus on the matter. However, d-orbital hybridization remains a useful concept in chemistry, and it can be used to explain the properties of many molecules.",
     ],
   },
 ];

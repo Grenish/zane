@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import fallback from "../json/fallback.json";
 import queries from "../json/data";
 import Fuse from "fuse.js";
-import { create, all } from 'mathjs';
+import { create, all } from "mathjs";
 
 const Chatbox = () => {
   const [messages, setMessages] = useState([]);
@@ -40,68 +40,78 @@ const Chatbox = () => {
 
   const math = create(all);
 
-  const handleUserMessage = (event) => {
+  const handleUserMessage = async (event) => {
     const fuse = new Fuse(queries, {
       keys: ["query"],
       threshold: 0.3,
     });
   
-    const handleInput = (event) => {
-      if (event.key === "Enter") {
-        const userMessage = event.target.value;
-        try {
-          const result = math.evaluate(userMessage);
+    if (event.key === "Enter" || event.type === "click") {
+      const userMessage = event.target.value.trim();
+  
+      try {
+        const result = math.evaluate(userMessage);
+        setMessages([
+          ...messages,
+          { text: userMessage, isUser: true },
+          { text: result, isUser: false },
+        ]);
+      } catch (e) {
+        const results = fuse.search(userMessage);
+  
+        if (results.length > 0) {
+          const matchedQuery = results[0].item;
+          const responses = matchedQuery.response;
+          const response =
+            responses[Math.floor(Math.random() * responses.length)];
           setMessages([
             ...messages,
             { text: userMessage, isUser: true },
-            { text: result, isUser: false },
+            { text: response, isUser: false },
           ]);
-        } catch (e) {
-          const results = fuse.search(userMessage);
-  
-          if (results.length > 0) {
-            const matchedQuery = results[0].item;
-            const responses = matchedQuery.response;
-            const response =
-              responses[Math.floor(Math.random() * responses.length)];
-            setMessages([
-              ...messages,
-              { text: userMessage, isUser: true },
-              { text: response, isUser: false },
-            ]);
-          } else {
-            const fallbackResponses = fallback.fallbackResponses;
-            const fallbackResponse =
-              fallbackResponses[
-                Math.floor(Math.random() * fallbackResponses.length)
-              ];
-            setMessages([
-              ...messages,
-              { text: userMessage, isUser: true },
-              { text: fallbackResponse, isUser: false },
-            ]);
+        } else {
+          try {
+            
+            const response = await fetch(url, options);
+            const result = await response.text();
+            console.log(result);
+          } catch (error) {
+            console.error(error);
           }
+  
+          const fallbackResponses = fallback.fallbackResponses;
+          const fallbackResponse =
+            fallbackResponses[
+              Math.floor(Math.random() * fallbackResponses.length)
+            ];
+          setMessages([
+            ...messages,
+            { text: userMessage, isUser: true },
+            { text: fallbackResponse, isUser: false },
+          ]);
         }
-  
-        event.target.value = "";
       }
-    };
   
-    handleInput(event);
+      event.target.value = "";
+    }
+    
   };
   
 
+  
+
+
 
 
   
-
   return (
     <div className="w-full h-screen">
       <div className="background"></div>
-      <div className=" w-full h-full flex flex-col justify-center items-center">
+      <div className=" w-full flex flex-col justify-center items-center">
         <span className="text-2xl sm:text-5xl font-bold mb-1">
-          Welcome to ZANE
+          Welcome to ZANE 
         </span>
+        <span className="text-xs font-thin p-2 rounded-full bg-blue-600">Experiment</span>
         <span className="text-xs mb-3">
           New version ZANE V2.1 |{" "}
           <a href="" target="_blank" className="underline">
@@ -117,17 +127,17 @@ const Chatbox = () => {
             <span className="w-full flex justify-center mb-2">Examples</span>
             <div className="w-[300px]">
               <ul>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm mb-2">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs mb-2">
                   Explain quantum computing in simple terms
                 </li>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm mb-2">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs mb-2">
                   What is the difference between a valence electron and an inner
                   electron?
                 </li>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm mb-2">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs mb-2">
                   Who is the CEO of Amazon?
                 </li>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs">
                   What is the difference between prokaryotic and eukaryotic
                   cells?
                 </li>
@@ -138,15 +148,15 @@ const Chatbox = () => {
             <span className="w-full flex justify-center mb-2">Limitations</span>
             <div className="w-[300px]">
               <ul>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm mb-2">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs mb-2">
                   Abilities are restricted to certain types of questions and
                   tasks.
                 </li>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm mb-2">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs mb-2">
                   Ability to understand and respond may be limited by its
                   programming and training data.
                 </li>
-                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md text-sm">
+                <li className="p-2 bg-[#ffffff55] rounded-xl shadow-md md:text-sm text-xs">
                   Does not have emotions or the ability to understand and
                   respond to human emotions in a meaningful way.
                 </li>
@@ -165,13 +175,21 @@ const Chatbox = () => {
       <div className="chat-container">
         <div className="main-chat-container bg-[#ffffff55] rounded-xl backdrop-blur-sm w-[900px] flex flex-col">
           {messages.map((message, index) => (
-            <div key={index}>
+            <div key={index} className="p-2">
               {message.isUser ? (
-                <p className="px-5 pt-2">
+                <p
+                  className={`mt-3 p-3 mb-0  rounded-t-xl ${
+                    theme == "dark" ? "bg-[#252525]" : "bg-[#e3e3e3]"
+                  }`}
+                >
                   <span className="font-bold">You:</span> {message.text}
                 </p>
               ) : (
-                <p className="px-5 pb-5">
+                <p
+                  className={`p-3 rounded-b-xl ${
+                    theme == "dark" ? "bg-[#252525]" : "bg-[#e3e3e3]"
+                  }`}
+                >
                   <div
                     dangerouslySetInnerHTML={{
                       __html: `<strong>Zane:</strong> ${message.text}`,
@@ -184,7 +202,7 @@ const Chatbox = () => {
                       target="_blank"
                       className="underline"
                     >
-                      add question
+                      Feedback
                     </a>{" "}
                   </p>
                 </p>
@@ -210,13 +228,17 @@ const Chatbox = () => {
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-stars text-[#252525] "
-                viewBox="0 0 16 16"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 text-black"
               >
-                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"
+                />
               </svg>
             </button>
           </div>
