@@ -1,11 +1,11 @@
 import React from "react";
-import { Chatbox } from "./components";
+import { Chatbox, Zane } from "./components";
 
 const App = () => {
   return (
     <div>
       <section>
-        <Chatbox />
+        <Zane />
       </section>
     </div>
   );

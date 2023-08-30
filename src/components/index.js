@@ -1,3 +1,4 @@
 import Chatbox from "./Chatbox";
+import Zane from "./Zane";
 
-export { Chatbox };
+export { Chatbox, Zane };
